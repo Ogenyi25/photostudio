@@ -1,10 +1,10 @@
 import React from 'react';
-
+import Route from './Route';
 
 function App() {
   return (
     <div className="App">
-      HELLO WORLD
+      <Route />
     </div>
   );
 }
