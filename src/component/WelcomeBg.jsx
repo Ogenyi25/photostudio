@@ -71,6 +71,12 @@ const Welcome = () => {
                     </div>
                 </div>
             </div>
+            <div className="our-services">
+                <div className="our-service-title">our service</div>
+                <div className="our-service-heading">
+                    see what we do
+                </div>
+            </div>
         </div>
     )
 }
