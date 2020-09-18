@@ -145,14 +145,14 @@
     .our-services {
         margin-top: 100px;
         .our-service-title {
-            margin-left: 180px;
+            margin-left: 150px;
             font-size: 18px;
             font-weight: 450;
             text-transform: capitalize;
         }
         .our-service-heading {
             margin-top: 20px;
-            margin-left: 170px;
+            margin-left: 140px;
             text-transform: uppercase;
             font-size: 50px;
             width: 40%;
@@ -160,6 +160,97 @@
             color: #d6d6d6;
             line-height: 55px;
         }
+        .services {
+            margin-top: 50px;
+            .wedding-words {
+                margin-top: 120px;
+                margin-left: auto;
+                margin-right: auto;
+                background: rgba(255, 245, 247, 0.76);
+                border-radius: 10px;
+                height: 400px;
+                .image {
+                    text-align: center;
+                    margin-top: 50px;
+                    .ring-image {
+                        width: 60px;
+                        height: 50px;
+                    }
+                }
+                .text {
+                    text-align: center;
+                    .heading {
+                        font-size: 20px;
+                        font-weight: 700;
+                        font-family: sans-serif;
+                        text-transform: uppercase;
+                        padding-top: 20px;
+                        padding-bottom: 5px;
+                    }
+                    .body {
+                        width: 100%;
+                        padding-top: 30px;
+                    }
+                }
+            }
+            .wedding-images {
+                .image {
+                    text-align: center;
+                    .wedding {
+                        width: 95%;
+                        height: 100vh;
+                        margin-left: -2rem;
+                    }
+                }
+            }
+
+            .nature-images {
+                margin-top: -8rem;
+                .image {
+                    text-align: center;
+                    .animal-img {
+                        margin-left: 40px;
+                        margin-right: auto;
+                        width: 350px;
+                    }
+                }
+            }
+            .nature-words {
+                margin-top: 40px;
+                background: rgba(255, 245, 247, 0.76);
+                border-radius: 1px;
+                height: 400px;
+                margin-left: 6rem;
+                .image {
+                    text-align: center;
+                    margin-top: 50px;
+                    .leaf-img {
+                        width: 150px;
+                        height: 60px;
+                    }
+                }
+                .text {
+                    text-align: center;
+                    .heading {
+                        font-size: 20px;
+                        font-weight: 700;
+                        font-family: sans-serif;
+                        text-transform: uppercase;
+                        padding-top: 20px;
+                        padding-bottom: 5px;
+                    }
+                    .body {
+                        width: 70%;
+                        padding-top: 30px;
+                        text-align: center;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                }
+            }
+            
+        }
+        
     }
 
 }
@@ -318,20 +409,96 @@
         .our-services {
             margin-top: 100px;
             .our-service-title {
-                margin-left: 20px;
+                margin-left: 30px;
                 font-size: 18px;
                 font-weight: 450;
                 text-transform: capitalize;
             }
             .our-service-heading {
                 margin-top: 20px;
-                margin-left: 15px;
+                margin-left: 25px;
                 text-transform: uppercase;
                 font-size: 40px;
                 line-height: 45px;
                 width: 95%;
                 font-weight: 800;
                 color: #d6d6d6;
+            }
+            .services {
+                .wedding-words {
+                    margin-top: 20px;
+                    width: 100%;
+                    background: rgba(255, 245, 247, 0.76);
+                    border-radius: 10px;
+                    height: 450px;
+                    margin-left: 2rem;
+                    .image {
+                        text-align: center;
+                        margin-top: 50px;
+                        .ring-image {
+                            width: 60px;
+                            height: 50px;
+                        }
+                    }
+                    .text {
+                        text-align: center;
+                        .heading {
+                            font-size: 20px;
+                            font-weight: 700;
+                            font-family: sans-serif;
+                            text-transform: uppercase;
+                            padding-top: 20px;
+                            padding-bottom: 5px;
+                        }
+                        .body {
+                            width: 100%;
+                            padding-top: 30px;
+                        }
+                    }
+                }
+                .wedding-images {
+                    display: none;
+                    
+                }
+    
+                .nature-images {
+                    display: none;
+                    
+                }
+                .nature-words {
+                    margin-top: 40px;
+                    background: rgba(255, 245, 247, 0.76);
+                    border-radius: 10px;
+                    height: 450px;
+                    margin-left: 2rem;
+                    width: 100%;
+                    margin-bottom: 20px;
+                    .image {
+                        text-align: center;
+                        margin-top: 50px;
+                        .leaf-img {
+                            width: 150px;
+                            height: 60px;
+                        }
+                    }
+                    .text {
+                        text-align: center;
+                        .heading {
+                            font-size: 20px;
+                            font-weight: 700;
+                            font-family: sans-serif;
+                            text-transform: uppercase;
+                            padding-top: 20px;
+                            padding-bottom: 5px;
+                        }
+                        .body {
+                            width: 100%;
+                            padding-top: 30px;
+                            text-align: center;
+                            
+                        }
+                    }
+                }
             }
         }
 }   }

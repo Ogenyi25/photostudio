@@ -76,6 +76,49 @@ const Welcome = () => {
                 <div className="our-service-heading">
                     see what we do
                 </div>
+                <div className="row services container-fluid">
+                    <div className="col-md-3 wedding-words">
+                        <div className="image">
+                            <img src={require('../asset/images/wedding.png')} alt="" className="ring-image" />
+                        </div>
+                        <div className="text">
+                            <div className="heading">wedding photography</div>
+                            <div className="body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-8 wedding-images">
+                        <div className="image">
+                            <img src={require('../asset/images/couples.png')} alt="" className="wedding" />
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className="row services container-fluid">
+                    <div className="col-md-3 nature-images">
+                        <div className="image">
+                            <img src={require('../asset/images/nature.png')} alt="" className="animal-img" />
+                        </div>
+                    </div>
+                    <div className="col-md-8 nature-words">
+                        <div className="image">
+                            <img src={require('../asset/images/leaf.png')} alt="" className="leaf-img" />
+                        </div>
+                        <div className="text">
+                            <div className="heading">nature photography</div>
+                            <div className="body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
     )
