@@ -12,23 +12,23 @@ const Navbar = () => {
             </div>
             <ul>
                 <li className="nav-items">
-                    <Link to='/' className="nav-link">Home</Link>
+                    <Link to='/home' className="nav-link">Home</Link>
                 </li>
 
                 <li className="nav-items">
-                    <Link to='/' className="nav-link">About</Link>
+                    <Link to='/about-us' className="nav-link">About</Link>
                 </li>
 
                 <li className="nav-items">
-                    <Link to='/' className="nav-link">Services</Link>
+                    <Link to='/services' className="nav-link">Services</Link>
                 </li>
 
                 <li className="nav-items">
-                    <Link to='/' className="nav-link">Gallery</Link>
+                    <Link to='/gallery' className="nav-link">Gallery</Link>
                 </li>
                 
                 <li className="nav-items">
-                    <Link to='/' className="nav-link">Contact Us</Link>
+                    <Link to='/contact-us' className="nav-link">Contact Us</Link>
                 </li>
             </ul>
             <input type="checkbox" id="check" />
