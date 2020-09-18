@@ -41,15 +41,27 @@
                 text-decoration: none;
                 color: #000;
                 border-radius: 5px;
-                transition: .3s ease-out;
-                
+                transition: .5s ease-out;
+                hr {
+                    border: 1px solid palevioletred;
+                    display: none;
+                    transition: .5s ease-out;
+                }
             }
         }
+
         .nav-link:hover {
-            background: #fff;
-            box-shadow: 4px 0px 40px rgba(44, 44, 44, 0.432);
             color: palevioletred;
-            transition: .3s ease-in;
+            transition: .5s ease-in;
+            hr {
+                display: block;
+                transition: .5s ease-in;
+                width: 60px;
+            }
+            //background: #fff;
+            //box-shadow: 4px 0px 40px rgba(44, 44, 44, 0.432);
+            //color: palevioletred;
+            //transition: .3s ease-in;
         }
     }
     input {
