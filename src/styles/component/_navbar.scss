@@ -136,8 +136,10 @@
     }
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .navbar {
+        z-index: 1;
+        position: fixed;
         .logo {
             font-size: 20px;
             padding-left: 10px;
@@ -165,8 +167,8 @@
             left: 0;
         }
         .checkbtn {
-            font-size: 30px;
-            margin-right: 20px;
+            font-size: 20px;
+            margin-right: 10px;
             cursor: pointer;
             display: block;
             color: palevioletred;
