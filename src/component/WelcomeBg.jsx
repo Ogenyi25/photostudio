@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Testimonials from './Testimonials';
 
 
 
@@ -120,6 +121,7 @@ const Welcome = () => {
 
                 </div>
             </div>
+            <Testimonials />
         </div>
     )
 }

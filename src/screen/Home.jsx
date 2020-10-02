@@ -4,9 +4,9 @@ import Welcome from '../component/WelcomeBg';
 
 
 
-const Home =()=> {
+const Home = () => {
     return (
-        <div className="home">
+        <div className="landing">
             <div>
                 <Navbar />
             </div>

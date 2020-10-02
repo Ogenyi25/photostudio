@@ -144,6 +144,7 @@
     }
     .our-services {
         margin-top: 100px;
+        margin-bottom: 200px;
         .our-service-title {
             margin-left: 150px;
             font-size: 18px;
@@ -260,7 +261,7 @@
     .welcome-page {
         .welcome-section {
             background: url('../../asset/images/banner_bg.png');
-            min-height: 90vh;
+            min-height: 100vh;
             width: 100%;
             background-position: center;
             background-size: cover;
@@ -271,7 +272,7 @@
                 font-size: 30px;
                 font-weight: 700;
                 text-transform: uppercase;
-                padding-top: 180px;
+                padding-top: 250px;
                 text-align: right;
                 margin-right: -80px;
                 span {
@@ -408,6 +409,7 @@
         }
         .our-services {
             margin-top: 100px;
+            margin-bottom: 150px;
             .our-service-title {
                 margin-left: 30px;
                 font-size: 18px;
