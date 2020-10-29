@@ -8,11 +8,11 @@ const Footer =()=> {
                 <div className="col-md-3 links">
                     <div className="link-title">our services</div>
                     <div className="service-links">
-                        <Link to="/" className="service-link">service one</Link>
-                        <Link to="/" className="service-link">service one</Link>
-                        <Link to="/" className="service-link">service one</Link>
-                        <Link to="/" className="service-link">service one</Link>
-                        <Link to="/" className="service-link">service one</Link>
+                        <Link to="/" className="service-link">wedding photography</Link>
+                        <Link to="/" className="service-link">bithday photoshot</Link>
+                        <Link to="/" className="service-link">nature photoshot</Link>
+                        <Link to="/" className="service-link">family indoorShot</Link>
+                        <Link to="/" className="service-link">outdoor shot</Link>
                     </div>
                 </div>
                 <div className="col-md-3 links">
@@ -20,9 +20,9 @@ const Footer =()=> {
                     <div className="contact-address">4361 Morningview Lane Artland,  Pall Street Latimer, 
                         F.C.T Abuja,
                     </div>
-                    <div className="contacts"><i className="fa fa-phone" />08134756623, 09081046069</div>
-                    <div className="contacts"><i className="fa fa-envelope" />johnogenyi4real@gmail.com</div>
-                    <div className="contacts"><i className="fa fa-envelope" />www.photostudiotesting.com</div>
+                    <div className="contacts"><i className="fa fa-mobile" />08134756623, 09081046069</div>
+                    <div className="contacts"><i className="fa fa-envelope-o" />johnogenyi4real@gmail.com</div>
+                    <div className="contacts"><i className="fa fa-globe" />www.photostudiotesting.com</div>
 
                 </div>
                 <div className="col-md-3 links">

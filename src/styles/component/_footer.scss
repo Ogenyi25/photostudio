@@ -55,6 +55,13 @@
                 cursor: pointer;
                 padding-bottom: 10px;
                 transition: .4s ease-out;
+                .fa {
+                    padding-right: 15px;
+                    font-size: 18px;
+                }
+                .fa-mobile {
+                    font-size: 25px;
+                }
             }
             .contacts:hover {
                 color: palevioletred;
@@ -71,15 +78,16 @@
                     background-size: cover;
                     margin: 2px;
                     cursor: pointer;
+                    transition: .4s ease-out;
                     .fa-instagram {
                         color: #fff;
                         margin: 20px auto;
                         visibility: hidden;
-                        transition: .4s ease-out;
                     }
                 }
                 .pics:hover {
                     transition: .4s ease-in;
+                    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.8);
                     .fa-instagram {
                         visibility: visible;
                     }
