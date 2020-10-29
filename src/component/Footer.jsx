@@ -22,7 +22,7 @@ const Footer =()=> {
                     </div>
                     <div className="contacts"><i className="fa fa-mobile" />08134756623, 09081046069</div>
                     <div className="contacts"><i className="fa fa-envelope-o" />johnogenyi4real@gmail.com</div>
-                    <div className="contacts"><i className="fa fa-globe" />www.photostudiotesting.com</div>
+                    <div className="contacts"><i className="fa fa-globe" />www.creativephotostudio.com</div>
 
                 </div>
                 <div className="col-md-3 links">
