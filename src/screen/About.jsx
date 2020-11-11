@@ -9,7 +9,9 @@ const About = () => {
             <div>
                 <Navbar />
             </div>
+            <div>
             About us
+            </div>
         </div>
     )
 }

@@ -80,7 +80,7 @@ const Welcome = () => {
                 <div className="row services container-fluid">
                     <div className="col-md-3 wedding-words">
                         <div className="image">
-                            <img src={require('../asset/images/wedding.png')} alt="" className="ring-image" />
+                            <img src={require('../asset/images/thumbnails/ring.svg')} alt="" className="ring-image" />
                         </div>
                         <div className="text">
                             <div className="heading">wedding photography</div>
